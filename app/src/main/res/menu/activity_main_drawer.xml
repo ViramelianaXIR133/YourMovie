@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_online"
+            android:icon="@drawable/ic_cloud_black_24dp"
+            android:title="Data" />
+        <item
+            android:id="@+id/nav_offline"
+            android:icon="@drawable/ic_list_black_24dp"
+            android:title="Offline" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_live_help_black_24dp"
+            android:title="Help" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_face_black_24dp"
+                android:title="About" />
+            />
+        </menu>
+    </item>
+
+</menu>
