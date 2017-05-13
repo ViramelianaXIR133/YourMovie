@@ -41,8 +41,8 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-        changePage(R.id.nav_online);
-        navigationView.setCheckedItem(R.id.nav_online);
+        changePage(R.id.nav_movie1);
+        navigationView.setCheckedItem(R.id.nav_movie1);
 
     }
 
@@ -92,15 +92,26 @@ public class MainActivity extends AppCompatActivity
 
     private void changePage(int id) {
         Fragment fragment = null;
-        if (id == R.id.nav_online) {
+        if (id == R.id.nav_movie1) {
             fragment = new MainFragment();
-            setTitle("Movie List");
+            setTitle("Now Playing");
             // Handle the camera action
+        } else if (id == R.id.nav_movie2) {
+            fragment = new Main2Fragment();
+            setTitle("Coming Soon");
+        } else if (id == R.id.nav_movie3) {
+            fragment = new Main3Fragment();
+            setTitle("Popular");
         } else if (id == R.id.nav_offline) {
-
+            fragment = new HelpFragment();
+            setTitle("Offline");
         } else if (id == R.id.nav_help) {
+            fragment = new HelpFragment();
+            setTitle("Help");
 
         } else if (id == R.id.nav_about) {
+            fragment = new AboutFragment();
+            setTitle("About Dev");
 
         }
         getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment).commit();

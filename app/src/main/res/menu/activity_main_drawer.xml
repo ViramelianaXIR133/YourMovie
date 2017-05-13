@@ -3,9 +3,17 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_online"
+            android:id="@+id/nav_movie1"
             android:icon="@drawable/ic_cloud_black_24dp"
-            android:title="Data" />
+            android:title="Now Playing" />
+        <item
+            android:id="@+id/nav_movie2"
+            android:icon="@drawable/ic_cloud_black_24dp"
+            android:title="Coming Soon" />
+        <item
+            android:id="@+id/nav_movie3"
+            android:icon="@drawable/ic_cloud_black_24dp"
+            android:title="Popular" />
         <item
             android:id="@+id/nav_offline"
             android:icon="@drawable/ic_list_black_24dp"

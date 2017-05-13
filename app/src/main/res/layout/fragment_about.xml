@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="id.sch.smktelkom_mlg.privateassignment.xirpl133.yourmovie.AboutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tvhelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="About"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imghelp"
+        android:layout_marginTop="49dp"
+        android:text=" My name is Vira Meliana Agustin. \nI come from Malang. \nI studied in Vocational High School Telkom Malang at Danau Ranau Street Sawojajar 1. \n I have made this application is for others that can be used to help them about movies. \n API is MovieDB API. \nYou can studied with  me at www.github.com/ViraMeliana33XIR1. Join us and make all come true" />
+
+    <ImageView
+        android:id="@+id/imghelp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/tvhelp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        app:srcCompat="@drawable/ic_face_black_24dp" />
+
+</RelativeLayout>

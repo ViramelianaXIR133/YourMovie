@@ -20,8 +20,8 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-public class DetailActivity extends AppCompatActivity {
-    private static final String URL_DATA = "https://api.themoviedb.org/3/movie/now_playing?api_key=18e7d23a486ff80cb18ece940e1e7feb";
+public class DetailActivity2 extends AppCompatActivity {
+    private static final String URL_DATA = "https://api.themoviedb.org/3/movie/upcoming?api_key=18e7d23a486ff80cb18ece940e1e7feb";
     public TextView textViewHeadet;
     public TextView textViewDescet;
     public TextView textViewReview;
@@ -32,7 +32,7 @@ public class DetailActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail);
+        setContentView(R.layout.activity_detail2);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         //setSupportActionBar(toolbar);
 
@@ -71,14 +71,14 @@ public class DetailActivity extends AppCompatActivity {
                             JSONArray array = jsonObject.getJSONArray("results");
                             JSONObject o = array.getJSONObject(mPostkey);
 
-                            setTitle("Detail of Your Now Playing Movie");
+                            setTitle("Detail of Your Coming Soon Movie");
 
                             textViewHeadet.setText(o.getString("original_title"));
                             textViewDescet.setText(o.getString("popularity"));
                             textViewReview.setText(o.getString("overview"));
                             //url = o.getString()
                             Glide
-                                    .with(DetailActivity.this)
+                                    .with(DetailActivity2.this)
                                     .load("http://image.tmdb.org/t/p/w500" + o.getString("poster_path"))
                                     .into(imageViewDetail);
 
