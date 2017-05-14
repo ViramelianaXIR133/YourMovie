@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity
             setTitle("Popular");
         } else if (id == R.id.nav_offline) {
             fragment = new OfflineFragment();
-            setTitle("Offline");
+            setTitle("Recommended");
         } else if (id == R.id.nav_help) {
             fragment = new HelpFragment();
             setTitle("Help");
