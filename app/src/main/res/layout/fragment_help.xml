@@ -70,7 +70,7 @@
         android:layout_marginStart="18dp"
         android:layout_toEndOf="@+id/im4"
         android:layout_toRightOf="@+id/im4"
-        android:text="This is about your offline movies. For more complete on your data online" />
+        android:text="This is about your recommended movies" />
 
     <ImageView
         android:id="@+id/im1"
