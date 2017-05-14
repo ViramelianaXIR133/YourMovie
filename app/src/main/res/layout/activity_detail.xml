@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="?attr/colorAccent"
     android:fitsSystemWindows="true"
     tools:context="id.sch.smktelkom_mlg.privateassignment.xirpl133.yourmovie.DetailActivity">
 
@@ -13,7 +14,9 @@
         android:id="@+id/app_bar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/app_bar_height"
+        android:background="?attr/colorAccent"
         android:fitsSystemWindows="true"
+
         android:theme="@style/AppTheme.AppBarOverlay">
 
         <android.support.design.widget.CollapsingToolbarLayout
@@ -21,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"
-            app:contentScrim="?attr/colorPrimary"
+            app:contentScrim="?attr/colorAccent"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
 
@@ -41,6 +44,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 app:layout_collapseMode="pin"
+
                 app:popupTheme="@style/AppTheme.PopupOverlay" />
 
 

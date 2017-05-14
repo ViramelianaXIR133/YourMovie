@@ -13,62 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:text="Help"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
-
-    <TextView
-        android:id="@+id/tv3"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignTop="@+id/im2"
-        android:layout_below="@+id/tv2"
-        android:layout_marginLeft="18dp"
-        android:layout_marginStart="18dp"
-        android:layout_toEndOf="@+id/im1"
-        android:layout_toRightOf="@+id/im1"
-        android:text="You can choose this icon to see the popular movies of other users. You ca see it in offline mode or online mode" />
-
-    <ImageView
-        android:id="@+id/im1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignTop="@+id/tv1"
-        android:layout_marginTop="92dp"
-        app:srcCompat="@drawable/ic_cloud_black_24dp" />
-
-    <TextView
-        android:id="@+id/tv2"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignTop="@+id/im1"
-        android:layout_marginLeft="18dp"
-        android:layout_marginStart="18dp"
-        android:layout_toEndOf="@+id/im2"
-        android:layout_toRightOf="@+id/im2"
-        android:text="You can choose this icon to see the popular movies. Click it and you can see overview of movie that you click. You just can see it in online mode
-        \n" />
-
-    <ImageView
-        android:id="@+id/im2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/im1"
-        android:layout_marginTop="47dp"
-        app:srcCompat="@drawable/ic_list_black_24dp" />
-
-    <TextView
-        android:id="@+id/tv1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/imghelp"
-        android:layout_marginTop="49dp"
-        android:text="       This application tell us about the popular movies in this year. You can access data of the movies with internet. If you in offline mode, you can't but you just can see the popular movies from other users of application.
-        \n\n" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="40dp" />
 
     <ImageView
         android:id="@+id/imghelp"
@@ -79,6 +25,115 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="33dp"
         app:srcCompat="@drawable/ic_live_help_black_24dp" />
+
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/im1"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_toEndOf="@+id/im1"
+        android:layout_toRightOf="@+id/im1"
+        android:text="This is about movie that playing now! Click it if you want to see the movie that playing now in your lovely theater" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/im3"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_toEndOf="@+id/im2"
+        android:layout_toRightOf="@+id/im2"
+        android:text="This is about movie that Coming soon! There is movies that you can see in your lovely theater soon!" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/im2"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_toEndOf="@+id/im2"
+        android:layout_toRightOf="@+id/im2"
+        android:text="This is about movie that Popular! The best and recommended movies" />
+
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/im4"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_toEndOf="@+id/im4"
+        android:layout_toRightOf="@+id/im4"
+        android:text="This is about your offline movies. For more complete on your data online" />
+
+    <ImageView
+        android:id="@+id/im1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imghelp"
+        android:layout_marginTop="46dp"
+        app:srcCompat="@drawable/ic_theaters_black_24dp" />
+
+    <ImageView
+        android:id="@+id/im2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/im1"
+        android:layout_marginTop="32dp"
+        app:srcCompat="@drawable/ic_grade_black_24dp" />
+
+    <ImageView
+        android:id="@+id/im3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/im2"
+        android:layout_marginTop="22dp"
+        app:srcCompat="@drawable/ic_fast_forward_black_24dp" />
+
+    <ImageView
+        android:id="@+id/im4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/im3"
+        android:layout_marginTop="19dp"
+        app:srcCompat="@drawable/ic_list_black_24dp" />
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/im2"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_alignTop="@+id/tv1"-->
+    <!--android:layout_marginTop="92dp"-->
+    <!--app:srcCompat="@drawable/ic_grade_black_24dp" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv1"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_alignTop="@+id/im2"-->
+    <!--android:layout_marginLeft="18dp"-->
+    <!--android:layout_marginStart="18dp"-->
+    <!--android:layout_toEndOf="@+id/im1"-->
+    <!--android:layout_toRightOf="@+id/im1"-->
+
+    <!---->
 
 
 </RelativeLayout>

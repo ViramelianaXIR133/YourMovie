@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity
             fragment = new Main3Fragment();
             setTitle("Popular");
         } else if (id == R.id.nav_offline) {
-            fragment = new HelpFragment();
+            fragment = new OfflineFragment();
             setTitle("Offline");
         } else if (id == R.id.nav_help) {
             fragment = new HelpFragment();
